@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+ul li{
+	color: white;
+}
+
+ul li a{
+	text-decoration: none;
+	float: right;
+	color: white;
+	padding: 20px 25px;
+	font-size: 20px;
+}
+.left a{
+	float: left;
+	font-size: 33px;
+	padding: 15px 0px 0px 40px;
+}
+
+span{
+	color: red;
+}
+
+ul li a:hover {
+	color: red;
+}
+
+.headerdiv{
+	text-align: left;
+	font-size: 70px;
+	padding: 100px 0px 190px 120px;
+	background-color: black;
+	color: white;
+}
+
+.button{
+	text-decoration: none;
+	border: 2px solid red;
+	padding: 20px 60px;
+	font-size: 30px;
+	color: white;
+}
+
+.button:hover{
+	background-color: red;
+}
+
+h1{
+	font-size: 60px;
+}
+
+.servicediv{
+	padding: 0 0 80px 0;
+	
+}
+
+.servicediv p{
+	font-size: 18px;
+}
+
+.next {
+	background-color: lightgrey;
+	overflow: hidden;
+	padding: 80px 0px;
+}
+
+.innerdiv{
+	float: left;
+	width: 20%;
+	background-color: darkslategrey;
+	color: white;
+	border-radius: 10%;
+	padding: 20px;
+	margin: 0px 10px;
+}
+
+.innerdiv h2{
+	color: red;
+	margin: 10px 0;
+}
+
+.maindiv: :after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.displaydiv{
+	background-color: darkslategrey;
+	margin: 0 80px;
+}
+
+.displaydiv: :after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.displaydiv img {
+	float: right;
+}
+
+.innerdisplaydiv {
+	padding: 84px 20px;
+	text-align: left;
+}
+
+.innerdisplaydiv h2,h3 {
+	color: red;
+}
+
+.innerdisplaydiv h2{
+	font-size: 50px;
+	margin: 0 0 10px 0;
+}
+
+.innerdisplaydiv h3{
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+.innerdisplaydiv p {
+	color: white;
+}
+
+.displaydiv2{
+	background-color: darkslategrey;
+	margin: 0 80px;
+}
+
+.displaydiv2: :after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.displaydiv2 img{
+	float: left;
+}
+
+.innerdisplaydiv2 {
+	padding: 94px 10px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.innerdisplaydiv2 h2,h3 {
+	color: red;
+	margin: 0 0 10px 0;
+}
+
+.innerdisplaydiv2 h2 ,.innerwineprojectdiv h2 ,.innernailpolishprojectdiv h2 {
+	font-size: 50px;
+	
+}
+
+.innerdisplaydiv2 h3 ,.innerwineprojectdiv h3 ,.innernailpolishprojectdiv h3{
+	font-size: 20px;
+}
+
+.innerdisplaydiv2 p {
+	color: white;
+}
+
+.recentprojectdiv {
+	padding: 100px 0 80px 0;
+}
+
+.wineprojectdiv{
+	margin: 100px 0 0 0;
+}
+
+.wineprojectdiv: :after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.nailpolishprojectdiv: :after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.innerwineprojectdiv h2,h3 ,.innernailpolishprojectdiv h2,h3{
+	color: red;
+	margin: 0 0 10px 0;
+}
+
+.innerwineprojectdiv p ,.innernailpolishprojectdiv p{
+	color: white;
+}
+
+.wineprojectdiv img{
+	float: left;
+}
+
+.nailpolishprojectdiv img{
+	float: right;
+}
+
+.innerwineprojectdiv{
+	background-color: darkslategrey;
+	text-align: left;
+	padding: 103.5px 10px;
+	overflow: hidden;
+}
+
+.innernailpolishprojectdiv{
+	background-color: darkslategrey;
+	text-align: left;
+	padding: 103.5px 10px;
+	overflow: hidden;
+}
+
+.aboutmesection{
+	overflow: hidden;
+}
+
+.outeraboutdiv{
+	margin: 150px 100px;
+}
+
+.outeraboutdiv: :after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.innerimagediv{
+	/*position: relative;*/
+	float: left;
+}
+
+.aboutcontentdiv{
+	/*position: absolute;*/
+	text-align: left;
+	padding: 20px 0 20px 30px;
+	overflow: hidden;
+}
+
+.aboutcontentdiv a{
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid red;
+	padding: 10px;
+	margin: 30px 0 0 0;
+}
+
+.aboutcontentdiv a:hover{
+	background-color: red;
+}
+
+.aboutcontentdiv h1{
+	margin: 0 0 20px 0 ;
+}
+
+.aboutcontentdiv p{
+	margin: 20px 0 40px 0 ;
+}
+
+.imagediv{
+	border: 1px solid black;
+	position: relative;
+	z-index: -1;
+}
+
+.imagebackdiv{
+	/*position: absolute;*/
+	border: 5px solid red;
+}
+
+.contactsection{
+	background-color: lightgrey;
+	padding: 200px 20px 200px 20px;
+	overflow: hidden;
+}
+
+.maincontactdiv: :after, .innercontactdiv: :after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.innercontactdiv, .innercontactdiv img{
+	float: left;
+	width: 27%;
+}
+
+.innercontactdiv{
+	outline: darkgray solid 1px;
+	margin: 0 20px;
+	border-radius: 5%;
+	padding: 30px 20px;
+}
+
+.incontactdiv{
+	text-align: left;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	overflow: hidden;
+}
+
+.incontactdiv h2{
+	padding: 0 0 10px 0;
+}
+
+footer{
+	background-color: darkslategrey;
+	color: white;
+	padding: 50px 0 30px 0;
+}
+
+footer h2{
+	font-size: 35px;
+}
